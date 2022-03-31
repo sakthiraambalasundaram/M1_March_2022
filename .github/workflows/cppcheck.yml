@@ -7,32 +7,13 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  cppcheck:
 
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Install cppcheck
-      run: sudo apt-get-y install cppcheck
-    - name: name: Code Quality - Static Code - Cppcheck
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
     - name: Install cppcheck
       run: sudo apt-get-y install cppcheck
     - name: Run cppcheck
-      run: cppcheck Run 3_Implementation
-     
-     
+      run: cppcheck 3_Implementation
