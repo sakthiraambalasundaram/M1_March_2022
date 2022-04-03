@@ -4,8 +4,16 @@
 
 * CODACY - static code analysis.
 
+
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/fdc6c8dafb0a4900941de8c5676b12ce)](https://www.codacy.com/gh/sakthiraambalasundaram/M1_PASSWOED_PROTECTED_PERSONAL_DIARY/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sakthiraambalasundaram/M1_PASSWOED_PROTECTED_PERSONAL_DIARY&amp;utm_campaign=Badge_Grade)
 
+* code inspector
+code quality score:
+
+[codiag](https://api.codiga.io/project/32540/score/svg)
+
+code grade:
+[codiag](https://api.codiga.io/project/32540/status/svg)
 ## GITHUB:
 1) c-cpp.yml
 
